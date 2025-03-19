@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const morgan = require('morgan');
-const {Product} = require('./model/product');
+const {Product} = require('./model/Product');
 const {Cart} = require('./model/Cart');
 
 //M43ZwUN7OBoGoftD
