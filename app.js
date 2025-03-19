@@ -9,9 +9,11 @@ const morgan = require('morgan');
 const {Product} = require('./model/Product');
 const {Cart} = require('./model/Cart');
 
+//M43ZwUN7OBoGoftD
 
+let MONGODB_URL="mongodb+srv://basanagoudanandihlli:M43ZwUN7OBoGoftD@cluster0.aovmf.mongodb.net/?retryWrites=true&w=majority"
 //connecting to database
-mongoose.connect('mongodb://127.0.0.1:27017/shopifyEcom')
+mongoose.connect(MONGODB_URL)
 .then(()=>{
     console.log('Connected to database');
 }).catch((err)=>{
